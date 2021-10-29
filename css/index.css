@@ -28,6 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+    font-size: 62.5%;
+}
 body {
 	line-height: 1;
 }
@@ -50,6 +53,36 @@ table {
 * {
     box-sizing: border-box;
 }
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 2%;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+header {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    display: flex;  
+}
+.bg-home {
+    width: 100%;
+    justify-content: center;
+    padding: 2%;
+    display: flex;
+    align-content: center;
+}
+.bg-about {
+    width: 100%;
+    justify-content: center;
+    padding: 2%;
+    display: flex;
+    align-content: center;
+}
 
 html, body {
     height: 100%;
@@ -57,13 +90,23 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+.boxes{
+    font-size: 1.6rem;
 }
 
 p {
     line-height: 1.4;
+    font-size: 1.5rem;
+    padding: 2%;
 }
 
 .container {
@@ -174,4 +217,33 @@ footer nav a {
 }
 .middle-content .boxes :nth-child(10) {
     background-color:dodgerblue ;
+}
+
+button  {
+    background-color:white ;
+    color: black;
+    padding: 2%;
+    text-decoration: none;
+
+}
+button a {
+    text-decoration: none;
+    color:black;
+    
+}
+a {
+    color: white;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    justify-content:center;
+    padding: 4%;
+    width: 100%;
+    align-content: center;
+}
+.element {
+    text-align: left;
 }
